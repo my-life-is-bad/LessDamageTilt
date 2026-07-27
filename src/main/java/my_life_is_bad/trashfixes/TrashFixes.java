@@ -1,4 +1,4 @@
-package my_life_is_bad.lessdamagetilt;
+package my_life_is_bad.trashfixes;
 
 import my_life_is_bad.configurationsbackport.common.config.Config;
 import my_life_is_bad.configurationsbackport.common.config.ConfigManager;
@@ -9,9 +9,9 @@ import net.minecraftforge.fml.common.event.FMLConstructionEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 
-@Mod(modid = LessDamageTilt.MOD_ID)
-public class LessDamageTilt {
-    public static final String MOD_ID = "lessdamagetilt";
+@Mod(modid = TrashFixes.MOD_ID)
+public class TrashFixes {
+    public static final String MOD_ID = "trashfixes";
 
     @Config(modid = MOD_ID)
     public static class Configuration {

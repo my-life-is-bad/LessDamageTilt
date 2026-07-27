@@ -1,7 +1,7 @@
 {
   "compatibilityLevel": "JAVA_8",
-  "package": "my_life_is_bad.lessdamagetilt.mixin",
-  "refmap": "refmap.lessdamagetilt.json",
+  "package": "my_life_is_bad.trashfixes.mixin",
+  "refmap": "refmap.trashfixes.json",
   "client": [
     "MixinEntityRenderer"
   ],

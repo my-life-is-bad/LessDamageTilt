@@ -1,6 +1,6 @@
-package my_life_is_bad.lessdamagetilt.mixin;
+package my_life_is_bad.trashfixes.mixin;
 
-import my_life_is_bad.lessdamagetilt.LessDamageTilt;
+import my_life_is_bad.trashfixes.TrashFixes;
 import net.minecraft.client.renderer.EntityRenderer;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
@@ -10,6 +10,6 @@ import org.spongepowered.asm.mixin.injection.ModifyArg;
 public class MixinEntityRenderer {
     @ModifyArg(method = "hurtCameraEffect", at = @At(value = "INVOKE", target = "Lnet/minecraft/client/renderer/GlStateManager;rotate(FFFF)V", ordinal = 2), index = 0)
     private float modifyDamageTilt(float originalAngle) {
-        return originalAngle * ((float) LessDamageTilt.Configuration.modifier /100);
+        return originalAngle * ((float) TrashFixes.Configuration.modifier /100);
     }
 }
