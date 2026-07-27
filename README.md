@@ -1,4 +1,4 @@
-# LessDamageTilt
+# TrashFixes
 
-A mod which allows the damage tilt to be adjusted. (Adjust from mod settings)
+A mod which does things that i just want to do ;-;
 This mod requires ConfigurationsBackport v1.1
